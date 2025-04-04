@@ -106,7 +106,7 @@ function addDragAndDrop() {
 // مدیریت زبان
 const translations = {
   fa: {
-    title: "لیست کارهای خفن من",
+    title: "لیست کارهای من",
     placeholder: "تسک جدید رو بنویس...",
     "priority-low": "کم",
     "priority-medium": "متوسط",
@@ -115,7 +115,7 @@ const translations = {
     "delete-btn": "حذف"
   },
   en: {
-    title: "My Awesome To-Do List",
+    title: "My To-Do List",
     placeholder: "Write a new task...",
     "priority-low": "Low",
     "priority-medium": "Medium",
