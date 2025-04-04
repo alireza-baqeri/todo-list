@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>لیست کار ها | To-Do List</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Vazir&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 data-lang="title">To-DO</h1>
+      <div class="controls">
+        <button id="theme-toggle">🌙</button>
+        <select id="language-select">
+          <option value="fa">فارسی</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+    </header>
+    <form id="task-form">
+      <input type="text" id="task-input" data-lang="placeholder" placeholder="تسک جدید رو بنویس...">
+      <select id="priority">
+        <option value="low" data-lang="priority-low">کم</option>
+        <option value="medium" data-lang="priority-medium">متوسط</option>
+        <option value="high" data-lang="priority-high">زیاد</option>
+      </select>
+      <button type="submit" data-lang="add-btn">اضافه کن</button>
+    </form>
+    <ul id="task-list"></ul>
+    <div class="quote-box">
+      <p id="quote-text">«زندگی کوتاه‌تر از آن است که به نفرت بگذرد.» - سعدی</p>
+    </div>
+    <footer>
+      <p>ساخته شده توسط علیرضا باقری | Made by Alireza Bagheri</p>
+      <p>
+        <a href="https://linkedin.com/in/alireza-bagheri-a585b0239" target="_blank">لینکدین | LinkedIn</a> | 
+        <a href="https://github.com/alireza-baqeri" target="_blank">گیت‌هاب | GitHub</a>
+      </p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
